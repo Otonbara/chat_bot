@@ -4,7 +4,7 @@ import streamlit as st
 st.title('Ragers🌵GPT')
 
 # connect to openai
-openai.api_key = "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"
+openai.api_key = ""
 
 if "openai_model" not in st.session_state:
     st.session_state["openai_model"] = 'gpt-3.5-turbo'
